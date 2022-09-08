@@ -1,6 +1,6 @@
 <?php
 
-namespace GuidoFaecke\IBMi;
+namespace SystemServices\IBMi;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Arr;

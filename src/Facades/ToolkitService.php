@@ -1,6 +1,6 @@
 <?php
 
-namespace GuidoFaecke\IBMi\Facades;
+namespace SystemServices\IBMi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

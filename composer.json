@@ -1,5 +1,5 @@
 {
-    "name": "guidofaecke/laravel-ibm-ibmi",
+    "name": "ssibtr/laravel-ibm-ibmi",
     "description": "laravel-ibm-ibmi is a simple DB2 & Toolkit for IBMi service provider for Laravel. It provides DB2 Connection by extending the Illuminate Database component of the laravel framework. Plus it also provides Toolkit for IBMi so that you can access IBMi resources with same credentials.",
     "keywords": [
         "laravel",
@@ -20,6 +20,10 @@
         {
             "name": "Guido Faecke",
             "role": "Developer"
+        },
+        {
+            "name": "Bee Vo",
+            "role": "Developer"
         }
     ],
     "config": {
@@ -28,7 +32,7 @@
     "require": {
         "php": "^7.3",
         "zendtech/ibmitoolkit": "^1.9.0",
-        "guidofaecke/laravel-ibm-db2": "^8.0",
+        "ssibtr/laravel-ibm-db2": "^8.0",
         "laravel/framework": "^8.0"
     },
     "require-dev": {
@@ -38,16 +42,16 @@
     },
     "autoload": {
         "psr-4": {
-            "GuidoFaecke\\IBMi\\": "src/"
+            "SystemServices\\IBMi\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "GuidoFaecke\\IBMi\\IBMiServiceProvider"
+                "SystemServices\\IBMi\\IBMiServiceProvider"
             ],
             "aliases": {
-                "TS": "GuidoFaecke\\IBMi\\Facades\\ToolkitService"
+                "TS": "SystemServices\\IBMi\\Facades\\ToolkitService"
             }
         }
     }
