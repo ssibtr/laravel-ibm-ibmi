@@ -32,7 +32,7 @@
     "require": {
         "php": "^7.3",
         "zendtech/ibmitoolkit": "^1.9.0",
-        "ssibtr/laravel-ibm-db2": "^8.0",
+        "ssibtr/laravel-ibm-db2": "^1.0.0",
         "laravel/framework": "^8.0"
     },
     "require-dev": {
